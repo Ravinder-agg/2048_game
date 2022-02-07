@@ -1,9 +1,18 @@
 import pygame
 from pygame.locals import *
 import sys
+import random
 
-import pygame
-from pygame.locals import *
+rows = 4
+cols = 4
+black = 0, 0, 0
+
+PADDING = 10
+TILE_SIZE = 125
+
+
+pygame.init()
+pygame.display.set_caption("2048")
 
 
 def hex_to_rgb(hex_color):
@@ -65,14 +74,7 @@ class Board:
 
 
 
-rows = 4
-cols = 4
-black = 0, 0, 0
 
-
-import random
-PADDING = 10
-TILE_SIZE = 125
 
 BACKGROUND_COLOR = "#92877d"
 BACKGROUND_COLOR_EMPTY_TILE = "#9e948a"
@@ -182,8 +184,7 @@ class TwentyFortyEight:
 
 
 
-pygame.init()
-pygame.display.set_caption("2048")
+
 
 SIZE = width, height = cols * TILE_SIZE + (cols + 1) * PADDING,\
                        rows * TILE_SIZE + (rows + 1) * PADDING
