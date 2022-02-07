@@ -3,9 +3,9 @@
 
 ## Screenshots
 
-![alt text](https://github.com/Ravinder-agg/2048_game/2048_c.png)
+![alt text](https://github.com/Ravinder-agg/2048_game/blob/main/2048_c.png)
 
-![alt text](https://github.com/Ravinder-agg/2048_game/2048_2_c.png)
+![alt text](https://github.com/Ravinder-agg/2048_game/blob/main/2048_2_c.png)
 
 
 ## Requirements
